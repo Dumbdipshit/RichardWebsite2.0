@@ -15,7 +15,89 @@ html{
 body{
     background-color: #44445c;
     font-size: 30px;
-    color: #fceccc;
+    color: white;
     font-family: jetmono;
     text-shadow: 0px 3px #2525367d;
+    text-align: center;
+}
+
+.header-row-container{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    width: 100%;
+    gap: 15%;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+.header-title{
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.header-column-container{
+    width: 64%;
+    position: absolute;
+    transform: translate(0, -65px);
+    transition: 1s;
+    margin-left: 25%;
+}.header-column-container:hover {
+    transform: translate(0, -2px);
+    transition: 0.5s;
+}.header-column-container:hover .header-arrow {
+    rotate:270deg;
+    transition: 0.5s;
+}
+
+.header-arrow{
+    width: fit-content;
+    opacity: 0.4;
+    rotate: 90deg;
+    cursor: default;
+    transform: scaleY(2.5);
+    margin-left: 36%;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.header-list-container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5%;
+}
+
+.header-pages{
+    width: auto;
+    height: auto;
+    background-color: #44445c00;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}.header-pages:hover{
+    color: #cbdbfc;
+    transition: 1s;
+    font-size: 25px;
+}
+
+.header-title-large{
+    text-shadow: 0px 3px #639ffc;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wave-image{
+    width: 30%;
+    height: fit-content;
+    margin: auto;
 }
