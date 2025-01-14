@@ -90,6 +90,7 @@ body{
     text-align: center;
     font-weight: bold;
     width: 100%;
+    transition: 1s;
 }
 
 .main-column-container{
@@ -116,7 +117,6 @@ body{
     background: #f1d6d6;
     padding: 5%;
     border-radius: 15px;
-    margin-left: 5%;
 }
 
 .text-column-container{
@@ -125,25 +125,49 @@ body{
     flex-direction: column;
     width: 45%;
     margin: auto 0;
+    font-size: 25px;
+    transition: 1s;
+}.main-row-container:hover .text-column-container{
+    font-size: 26px;
+    transition: 0.5s;
 }
 
 .text-container{
     padding-left: 20%;
-    width: 100%;
+}
+
+.main-image-container{
+    padding-left: 10%;
 }
 
 .main-row-container{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     width: 90%;
     background: #48485c;
     margin: auto;
     padding-top: 4%;
     padding-bottom: 3%;
-    border-radius: 15px;
-    outline: 3px solid #5a5c67;
     gap: 10%;
+    box-shadow: 25px 25px #30303c67;
+    border-radius: 7px;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    gap: 10%;
+}
+
+.text-row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .item-row-container{
@@ -154,21 +178,89 @@ body{
 
 .text-gap-left{
     padding-left: 5%;
+    display: flex;
+    flex-direction: row;
 }
 
 .text-color-white{
     color: white;
+    text-align: left;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.text-color-white-large{
+    color: white;
+    font-size: 50px;
+    text-align: left;
 }
 
 .text-element{
     color: #78D0FF;
+    transition: 1s;
+}.main-row-container:hover .text-element{
+    color: #78d0ff76;
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+.text-element-large{
+    color: #78D0FF;
+    transition: 1s;
+    font-size: 50px;
+}.main-row-container:hover .text-element-large{
+    color: #78d0ff76;
+    font-size: 46px;
+    transition: 0.5s;
 }
 
 .text-class{
     color: #94F3FF;
+    transition: 1s;
+}.main-row-container:hover .text-class{
+    font-size: 23px;
+    color: #94f3ff78;
+    transition: 0.5s;
 }
 
 .text-class-name{
     color: #FFA778;
     font-weight: bold;
+}
+
+.glow{
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 200px #8ba6c01c;
+    border-radius: 50px;
+    z-index: -1;
+    transform: translateY(-50px);
+}
+
+.main-items-column-container{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 200px;
+}
+
+.divider{
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.pinkgoose-image{
+    width: 40%;
+    height: fit-content;
+    margin: auto 0;
+}
+
+.colum-container{
+    display: flex;
+    flex-direction: column;
 }
