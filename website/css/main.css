@@ -128,7 +128,6 @@ body{
     font-size: 25px;
     transition: 1s;
 }.main-row-container:hover .text-column-container{
-    font-size: 26px;
     transition: 0.5s;
 }
 
@@ -145,11 +144,14 @@ body{
     flex-direction: row;
     justify-content: center;
     width: 90%;
-    background: #48485c;
     margin: auto;
+    gap: 10%;
+}
+
+.container-decoration{
+    background: #48485c;
     padding-top: 4%;
     padding-bottom: 3%;
-    gap: 10%;
     box-shadow: 25px 25px #30303c67;
     border-radius: 7px;
 }
@@ -187,6 +189,15 @@ body{
     text-align: left;
 }
 
+.text-element-color-white{
+    color: white;
+    text-align: left;
+    transition: 1s
+}.main-row-container:hover .text-element-color-white{
+    color: rgba(255, 255, 255, 0.466);
+    transition: 0.5s;
+}
+
 .center-text{
     text-align: center;
 }
@@ -202,7 +213,6 @@ body{
     transition: 1s;
 }.main-row-container:hover .text-element{
     color: #78d0ff76;
-    font-size: 23px;
     transition: 0.5s;
 }
 
@@ -212,7 +222,6 @@ body{
     font-size: 50px;
 }.main-row-container:hover .text-element-large{
     color: #78d0ff76;
-    font-size: 46px;
     transition: 0.5s;
 }
 
@@ -220,7 +229,6 @@ body{
     color: #94F3FF;
     transition: 1s;
 }.main-row-container:hover .text-class{
-    font-size: 23px;
     color: #94f3ff78;
     transition: 0.5s;
 }
@@ -261,6 +269,28 @@ body{
 }
 
 .colum-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link{
+    text-decoration: none;
+    transition: 0.5s;
+}.contact-link:hover{
+    text-decoration:underline;
+    font-size: 31px;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-column-container{
     display: flex;
     flex-direction: column;
 }
