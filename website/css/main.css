@@ -294,3 +294,30 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.messenger-button-shadow{
+    background: rgb(255,56,57);
+    background: linear-gradient(90deg, rgba(255,56,57,1) 0%, rgba(202,35,148,1) 37%, rgba(136,27,209,1) 60%, rgba(8,109,215,1) 100%);
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    transition: 0.5s;
+}.messenger-button-shadow:hover{
+    padding-bottom: 1%;
+}
+
+.messenger-button{
+    background: rgb(255,104,105);
+    background: linear-gradient(90deg, rgba(255,104,105,1) 0%, rgba(221,71,172,1) 37%, rgba(166,59,237,1) 60%, rgba(25,137,255,1) 100%);
+    border-radius: 20px;
+    padding: 2px 5%;
+    padding-bottom: 2%;
+    transition: 0.5s;
+}.messenger-button-shadow:hover .messenger-button{
+    margin-top: 3%;
+}
+
+.messenger-image{
+    width: 100%;
+}
