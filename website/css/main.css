@@ -131,6 +131,10 @@ body{
     transition: 0.5s;
 }
 
+.main-bigger-width{
+    width: 60%;
+}
+
 .text-container{
     padding-left: 20%;
 }
@@ -159,10 +163,9 @@ body{
 .row-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 90%;
-    margin: auto;
-    gap: 10%;
+    justify-content: start;
+    width: 100%;
+    gap: 25%;
 }
 
 .text-row-container{
@@ -180,8 +183,7 @@ body{
 
 .text-gap-left{
     padding-left: 5%;
-    display: flex;
-    flex-direction: row;
+
 }
 
 .text-color-white{
@@ -318,7 +320,7 @@ body{
     padding-bottom: 2%;
     transition: 0.5s;
 }.contact-button-shadow:hover .contact-button{
-    margin-top: 1.8%;
+    margin-top: 1.%;
 }
 
 .messenger-decoration-shadow{
@@ -369,4 +371,10 @@ body{
     padding: 8% 0;
     box-shadow: 0 30px #F1DDDA;
     margin-bottom: 100px
+}
+
+.project-image{
+    width: 50%;
+    height: fit-content;
+    margin: auto;
 }
