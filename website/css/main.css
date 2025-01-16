@@ -114,7 +114,16 @@ body{
     width: 17%;
     height: auto;
     margin: auto 0;
-    background: #f1d6d6;
+    background: #848e9e;
+    padding: 5%;
+    border-radius: 15px;
+}
+
+.image-container-2{
+    width: 20%;
+    height: auto;
+    margin: auto 0;
+    background: #848e9e;
     padding: 5%;
     border-radius: 15px;
 }
@@ -377,4 +386,16 @@ body{
     width: 60%;
     height: fit-content;
     margin: auto;
+}
+
+.school-image{
+    width: 70%;
+    height: fit-content;
+    transform: scaleX(-1);
+}
+
+.tv-image{
+    width: 100%;
+    height: fit-content;
+    margin: auto 0;
 }
