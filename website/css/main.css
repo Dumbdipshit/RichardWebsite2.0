@@ -165,7 +165,7 @@ body{
     flex-direction: row;
     justify-content: start;
     width: 100%;
-    gap: 25%;
+    gap: 50%;
 }
 
 .text-row-container{
@@ -374,7 +374,7 @@ body{
 }
 
 .project-image{
-    width: 50%;
+    width: 60%;
     height: fit-content;
     margin: auto;
 }
