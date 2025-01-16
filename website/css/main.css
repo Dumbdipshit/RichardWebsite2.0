@@ -301,6 +301,12 @@ body{
     flex-direction: column;
 }
 
+.project-column-container{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
 .contact-column-container{
     display: flex;
     flex-direction: column;
@@ -383,7 +389,7 @@ body{
 }
 
 .project-image{
-    width: 60%;
+    width: 50%;
     height: fit-content;
     margin: auto;
 }
