@@ -389,9 +389,19 @@ body{
 }
 
 .project-image{
-    width: 50%;
+    width: 30%;
     height: fit-content;
     margin: auto;
+    transition: 0.5s;
+}.project-image:hover{
+    transform: scale(1.1); 
+}
+
+.pinkgoose-image{
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    transition: 0.5s;
 }
 
 .school-image{
