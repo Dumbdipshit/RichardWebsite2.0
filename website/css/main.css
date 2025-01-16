@@ -389,12 +389,18 @@ body{
 }
 
 .project-image{
-    width: 30%;
+    width: 100%;
     height: fit-content;
     margin: auto;
     transition: 0.5s;
+    transform-style: preserve-3d rotateX(0deg);
 }.project-image:hover{
-    transform: scale(1.1); 
+    transform: scale(1.1) rotateX(12deg); 
+}
+
+.project-image-container{
+    perspective: 1000px;
+    width: 30%;
 }
 
 .pinkgoose-image{
@@ -426,4 +432,10 @@ body{
     height: fit-content;
     margin: auto 0;
     transform: scaleX(-1);
+}
+
+.hire-me-image{
+    width: 20%;
+    height: fit-content;
+    margin: auto 0;
 }
