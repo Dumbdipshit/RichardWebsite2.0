@@ -100,9 +100,10 @@ body{
 }
 
 .wave-image{
-    width: 30%;
+    width: 20%;
     height: fit-content;
-    margin: auto;
+    margin-top: 10%;
+    margin-left: 42%;
 }
 
 .dance-image{
@@ -255,7 +256,7 @@ body{
     box-shadow: 0px 0px 100px 200px #8ba6c01c;
     border-radius: 50px;
     z-index: -1;
-    transform: translateY(-50px);
+    transform: translateY(-80px);
 }
 
 .main-items-column-container{
@@ -393,9 +394,12 @@ body{
     height: fit-content;
     margin: auto;
     transition: 0.5s;
-    transform-style: preserve-3d rotateX(0deg);
+    transform-style: preserve-3d;
+    transform:  rotateX(50deg);
 }.project-image:hover{
-    transform: scale(1.1) rotateX(12deg); 
+    transform: scale(1.1) rotateX(0deg); 
+    box-shadow: 0px 0px 100px 50px #8ba6c01c;
+
 }
 
 .project-image-container{
