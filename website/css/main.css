@@ -135,7 +135,7 @@ body{
     flex-direction: column;
     width: 45%;
     margin: auto 0;
-    font-size: 25px;
+    font-size: 25px; /*verander dit valueta dan verander je bijna alle tekst*/
     transition: 1s;
 }.main-row-container:hover .text-column-container{
     transition: 0.5s;
