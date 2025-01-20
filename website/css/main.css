@@ -415,7 +415,7 @@ body{
 }
 
 .school-image{
-    width: 70%;
+    width: 100%;
     height: fit-content;
     transform: scaleX(-1);
 }
