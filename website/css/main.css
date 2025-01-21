@@ -520,4 +520,27 @@ body{
         opacity: 0;
     }
 
+    .contact-link:hover{
+        font-size: 11px;
+        text-decoration: none;
+    }
+
+    .contact-button-shadow:hover{
+        padding-bottom: 2%;
+    }
+
+    .contact-button-shadow:hover .contact-button{
+        margin-top: 0px;
+    }
+
+    .contact-button-column-container{
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .contact-container{
+        box-shadow: 0 15px #F1DDDA;
+        border-radius: 10px;
+    }
+
 }
