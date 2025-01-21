@@ -57,7 +57,7 @@ body{
     rotate: 90deg;
     cursor: default;
     transform: scaleY(2.5);
-    margin-left: 36%;
+    margin: 0 auto;
     margin-top: 30px;
     transition: 1s;
 }
@@ -65,8 +65,10 @@ body{
 .header-list-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     list-style: none;
     gap: 5%;
+    margin: 0 auto;
 }
 
 .header-pages{
