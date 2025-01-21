@@ -106,6 +106,12 @@ body{
     margin-left: 42%;
 }
 
+.walk-image{
+    width: 100%;
+    height: fit-content;
+    transform: scaleX(-1);
+}
+
 .dance-image{
     width: 100%;
     height: fit-content;
