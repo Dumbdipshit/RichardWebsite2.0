@@ -449,3 +449,33 @@ body{
     height: fit-content;
     margin: auto 0;
 }
+
+@media only screen and (max-width: 800px) {
+    body{
+        font-size: 11px;
+        text-shadow: 0px 1px #2525367d;
+    }
+
+    .text-column-container{
+        font-size: 12px;}
+
+    .text-color-white-large {
+        font-size: 25px;
+    }
+
+    .text-element-large{
+        font-size: 25px;
+    }
+
+    .header-title-large{
+        font-size: 50px;
+    }
+
+    .header-title{
+        font-size: 12px;
+    }
+
+    .divider{
+        margin-top: 100px;
+    }
+}
