@@ -478,4 +478,46 @@ body{
     .divider{
         margin-top: 100px;
     }
+
+    .contact-column-container{
+        gap: 20px;
+    }
+
+    .container-decoration{
+        box-shadow: 12px 12px #30303c67;
+    }
+
+    .header-column-container{
+        transform: translate(0, 0px);
+        margin-left: 31%;
+    }
+
+    .header-pages{
+        font-size: 9px;
+    }
+
+    .header-row-container{
+        padding-bottom: 0px;
+    }
+
+    .project-column-container{
+        gap: 50px;
+    }
+    
+    .project-image{
+        transform: rotateX(0deg);
+    }
+
+    .contact-button-shadow{
+        border-radius: 10px;
+    }
+
+    .contact-button{
+        border-radius: 10px;
+    }
+
+    .header-arrow{
+        opacity: 0;
+    }
+
 }
